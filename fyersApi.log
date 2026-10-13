@@ -1,0 +1,2 @@
+{"level":"ERROR","location":"[get_call:174] fyersModel","message":{"API":"/profile","Error":{"s":"error","code":-16,"message":"Token is Invalid or Expired"}},"timestamp":"2026-10-07 23:50:02,479+0530","service":"FyersAPI"}
+{"level":"ERROR","location":"[get_call:174] fyersModel","message":{"API":"/profile","Error":{"s":"error","code":-16,"message":"Token is Invalid or Expired"}},"timestamp":"2026-10-08 09:32:08,467+0530","service":"FyersAPI"}

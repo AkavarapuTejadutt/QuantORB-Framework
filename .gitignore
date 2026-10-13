@@ -1,0 +1,8 @@
+keys.py
+.env
+.session.json
+__pycache__/
+logs/
+state/
+scrip_master.json
+releases/

@@ -1,0 +1,5 @@
+fyers-apiv3
+pyotp
+logzero
+websocket-client
+smartapi-python

@@ -1,0 +1,17 @@
+CHANGELOG
+=========
+
+1.0.0  (2026-09-25)
+  First packaged release.
+  - Opening range 09:15-09:45, breakout entries until the 12:10 close,
+    stop = previous candle low/high honoured only on candle close,
+    target = RISK_REWARD x stop distance checked on live ticks,
+    square-off at 15:10, MAX_TRADES_PER_DAY limit.
+  - FUTURES mode (Nifty futures with automatic monthly rollover) and
+    STOCK mode (capital x leverage sizing).
+  - PAPER_TRADING switch, 24/7 runner with restart-safe daily state,
+    replay tool for past candles, automatic TOTP login.
+  - Fix: last eligible candle (closing at 12:10) is now always processed
+    before the day is declared finished.
+  - Fix: WebSocket close no longer triggers a reconnect after a
+    deliberate stop.

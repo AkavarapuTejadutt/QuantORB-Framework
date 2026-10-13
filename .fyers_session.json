@@ -1,0 +1,20 @@
+{
+  "app_id": "DEMOAPPID1-100",
+  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.fake_mock_payload_for_github_display_only.signature_hash_fake",
+  "login_time": "2026-10-13T09:00:00",
+  "profile": {
+    "fy_id": "DEMO1234",
+    "name": "MOCK USER",
+    "image": null,
+    "display_name": null,
+    "pin_change_date": null,
+    "email_id": "developer@example.com",
+    "pwd_change_date": null,
+    "PAN": "ABCDE1234F",
+    "mobile_number": "9876543210",
+    "totp": false,
+    "pwd_to_expire": 90,
+    "ddpi_enabled": false,
+    "mtf_enabled": false
+  }
+}
